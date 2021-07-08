@@ -1,0 +1,100 @@
+.home, .car, .booking, .contact, .drivers, .services, .about,.live
+{
+   top: 70px;
+   position: absolute; 
+   text-align: center;
+}
+
+.home, .booking, .contact, .drivers, .services, .about
+{
+  align-items: center;
+}
+
+.Menu
+{
+  padding: 10px;
+  justify-content:space-evenly;
+  display: flex;
+  align-items: baseline;
+  background-color: rgb(0, 162, 255);
+  font-size: 25px;
+  color: black;
+}
+
+span{
+  justify-content:space-evenly;
+}
+
+.home
+{
+  top:53px ;
+  background-image: url('./images/nice2.jpg');
+  width: 100%;
+
+} 
+
+.car 
+{
+  right:380px;
+}
+
+.contact {
+  right:480px;
+  text-align: center;
+}
+
+.drivers {
+  align-content: center;
+}
+
+.services {
+  right: 310px;
+  display: flex;
+  flex-direction: column;
+}
+.calend{
+  top: 70px;
+
+  align-items: center;
+  display: inline-block;
+}
+
+.tocontact
+{
+  text-align-last: center;
+}
+
+li{
+  list-style-type:none;
+}
+
+ul {
+  display: block;
+  margin-inline-end: 38px;
+}
+
+.reponse{
+  display: flex;
+}
+
+button{
+  background-color: rgb(0, 162, 255); 
+  border: solid;
+  border-color: rgb(0, 162, 255) ;
+  color: rgb(0, 0, 0);
+  padding: 3px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: radius 12px;
+}
+html{
+  background-image: url('./images/fond.jpg');
+}
+hr{
+  border-color:rgba(254,240,149);
+  background-color:rgba(254,240,149) ;
+height: 2px;
+
+}
+
