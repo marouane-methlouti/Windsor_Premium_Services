@@ -9,6 +9,7 @@ export const Contact = () => {
     const [name, setName] = React.useState('');
     const [email, setEmail] = React.useState('');
     const [message, setMessage] = React.useState('');
+    const [forms, setForms]= React.useState('');
 
 
     function handleSubmit(event) {
